@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+/* .container{
+  background-color: aliceblue;
+  width: 300px;
+  
+  padding: 20px ;
+  box-sizing: border-box;
+  margin: 30px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: blue;
+  text-align: center;
+
+} */
+
+.container3 {
+  background-color: white;
+  color: #333;
+  width: 300px;
+  padding: 20px;
+  margin: 30px auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: left;
+}
