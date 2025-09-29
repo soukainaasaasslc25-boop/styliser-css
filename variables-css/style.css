@@ -3,6 +3,8 @@
   --couleur-texte: white;
   --espacement: 15px;
   --rayon-bordure: 5px;
+  --text-color:#db3434;
+ 
 }
 
 body {
@@ -14,7 +16,7 @@ body {
 
 button {
   background-color: var(--couleur-principale);
-  color: var(--couleur-texte);
+  color: var(--text-color);
   padding: var(--espacement);
   border: none;
   border-radius: var(--rayon-bordure);
