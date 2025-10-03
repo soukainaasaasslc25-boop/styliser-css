@@ -5,7 +5,45 @@
    
    
 }
-header{
+.navbar {
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1a1a1a;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  z-index: 1000;
+ 
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00c3ff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00c3ff;
+}
+.home{
+ margin-top: 60px;
      /* background: linear-gradient(to right, rgb(243, 201, 201),rgb(255, 255, 255)); */
   background-image: url(images/téléchargement\ \(1\).jpg);
 background-size: cover;
@@ -20,7 +58,7 @@ justify-content: space-between;
   
 
 }
-header img{
+.home img{
      padding: 10px;
       width: 280px;
   height: 380px;
@@ -29,20 +67,20 @@ header img{
   border: 5px solid #e1dede;
   box-shadow: 0 0 10px rgba(233, 181, 181, 0.1);
 }
- header h1 {
+ .home h1 {
      padding: 10px;
             font-size: 2.5rem;
             margin-bottom: 10px;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
         }
 
-        header h3 {
+         .home h3 {
              padding: 10px;
             font-size: 1.5rem;
             font-weight: 300;
             color: rgba(255, 255, 255, 0.9);
         }
-header p{
+.home p{
      padding: 10px;
      font-size: 1.3rem;
   color: #666;
